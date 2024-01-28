@@ -13,4 +13,5 @@
     tools:listitem="@layout/agenda_card_view"
     tools:context=".activities.MainActivity">
 
+
 </androidx.recyclerview.widget.RecyclerView>
