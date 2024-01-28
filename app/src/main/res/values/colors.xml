@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="agenda_card_view_bg_color">#A997DF</color>
+    <color name="primary_background_color">#DCCFEC</color>
+    <color name="primary_black">#262626</color>
+    <color name="secondary_black">#757575</color>
 </resources>
