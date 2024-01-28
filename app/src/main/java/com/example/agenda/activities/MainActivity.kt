@@ -1,5 +1,6 @@
 package com.example.agenda.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -9,7 +10,6 @@ import com.example.agenda.R
 import com.example.agenda.adapters.AgendaAdapter
 import com.example.agenda.roomdb.AgendaDatabase
 import com.example.agenda.viewModels.AgendaViewModel
-import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -60,13 +60,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun insertDataIntoDB() {
-
-    }
-
     private fun setupFloatingActionButtonClick() {
         floatingActionButton?.setOnClickListener {
-
+            startActivity(Intent(this@MainActivity,AddAgendaActivity::class.java))
         }
     }
 }
